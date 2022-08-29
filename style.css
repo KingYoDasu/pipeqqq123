@@ -19,7 +19,7 @@ html {
 /* hero section */
 
 #hero {
-  background-image: url(/img/hero.jpg);
+  background-image: url(/img/hero-banner.png);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -42,8 +42,21 @@ html {
 #hero a {
   text-decoration: none;
   color: white;
+  margin: 10px;
+
 }
 
-hero h1 {
+#hero h1 {
   font-family: "Chonburi", cursive;
+}
+
+#hero nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hero .nav-links{
+    flex: 1;
+    
 }
